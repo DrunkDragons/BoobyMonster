@@ -28,45 +28,75 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button5 = new System.Windows.Forms.Button();
+            this.Title = new System.Windows.Forms.Label();
+            this.LL = new System.Windows.Forms.Button();
+            this.L = new System.Windows.Forms.Button();
+            this.C = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button5
+            // Title
             // 
-            this.button5.Location = new System.Drawing.Point(448, 12);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 0;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.Title.AutoSize = true;
+            this.Title.Location = new System.Drawing.Point(478, 9);
+            this.Title.Name = "Title";
+            this.Title.Size = new System.Drawing.Size(135, 13);
+            this.Title.TabIndex = 0;
+            this.Title.Text = "Welcome to BoobyMonster";
+            // 
+            // LL
+            // 
+            this.LL.Location = new System.Drawing.Point(54, 101);
+            this.LL.Name = "LL";
+            this.LL.Size = new System.Drawing.Size(75, 23);
+            this.LL.TabIndex = 1;
+            this.LL.Text = "LooseLeaf";
+            this.LL.UseVisualStyleBackColor = true;
+            this.LL.Click += new System.EventHandler(this.LL_Click);
+            // 
+            // L
+            // 
+            this.L.Location = new System.Drawing.Point(54, 141);
+            this.L.Name = "L";
+            this.L.Size = new System.Drawing.Size(75, 23);
+            this.L.TabIndex = 2;
+            this.L.Text = "List";
+            this.L.UseVisualStyleBackColor = true;
+            this.L.Click += new System.EventHandler(this.L_Click);
+            // 
+            // C
+            // 
+            this.C.Location = new System.Drawing.Point(54, 182);
+            this.C.Name = "C";
+            this.C.Size = new System.Drawing.Size(75, 23);
+            this.C.TabIndex = 3;
+            this.C.Text = "Calculator";
+            this.C.UseVisualStyleBackColor = true;
+            this.C.Click += new System.EventHandler(this.C_Click);
             // 
             // Form1
             // 
-            this.ClientSize = new System.Drawing.Size(1076, 339);
-            this.Controls.Add(this.button5);
+            this.ClientSize = new System.Drawing.Size(1076, 517);
+            this.Controls.Add(this.C);
+            this.Controls.Add(this.L);
+            this.Controls.Add(this.LL);
+            this.Controls.Add(this.Title);
             this.Name = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
+
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button buttButton;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button listButton;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button Note;
+        private System.Windows.Forms.Button List;
+        private System.Windows.Forms.Button Calc;
+        private System.Windows.Forms.Label Label1;
+        private System.Windows.Forms.Label Title;
+        private System.Windows.Forms.Button LL;
+        private System.Windows.Forms.Button L;
+        private System.Windows.Forms.Button C;
     }
 }
 

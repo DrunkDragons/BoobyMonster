@@ -17,14 +17,22 @@ namespace BoobyTrap
             InitializeComponent();
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void LL_Click(object sender, EventArgs e)
         {
-           
-        
-            TextBox dynamicTextBox = new TextBox();
-            dynamicTextBox.Text = "Type Partnumber";
-            grid.Children.Add(dynamicTextBox);
-        
-    }
+            LooseLeaf frm = new LooseLeaf();
+            frm.Show();
+        }
+
+        private void L_Click(object sender, EventArgs e)
+        {
+            List frm = new List();
+            frm.Show();
+        }
+
+        private void C_Click(object sender, EventArgs e)
+        {
+            Calculator frm = new Calculator();
+            frm.Show();
+        }
     }
 }
