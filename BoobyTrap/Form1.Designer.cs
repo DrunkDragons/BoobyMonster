@@ -37,7 +37,7 @@
             // Title
             // 
             this.Title.AutoSize = true;
-            this.Title.Location = new System.Drawing.Point(478, 9);
+            this.Title.Location = new System.Drawing.Point(35, 9);
             this.Title.Name = "Title";
             this.Title.Size = new System.Drawing.Size(135, 13);
             this.Title.TabIndex = 0;
@@ -75,7 +75,7 @@
             // 
             // Form1
             // 
-            this.ClientSize = new System.Drawing.Size(1076, 517);
+            this.ClientSize = new System.Drawing.Size(181, 236);
             this.Controls.Add(this.C);
             this.Controls.Add(this.L);
             this.Controls.Add(this.LL);
